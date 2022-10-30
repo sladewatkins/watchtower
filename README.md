@@ -1,3 +1,18 @@
+# SRW Watchtower
+
+SRW Watchtower is a fork of Twidere X, an open-source Twitter client for Android, that intends to improve upon the Twidere X codebase. I plan to send some changes I make to the upstream to aid their efforts.
+
+Specific changes that will be made include:
+- improved support for V2 API features (poll viewing and creation, as well as reply controls)
+- more customization options
+- more I haven't thought of yet but will declare later on in an update to this README.
+
+I've left the original README file for Twidere X in tact for your reference. It's below the line.
+
+Feel free to submit code here, *and/or* upstream as well! And thanks to the Twidere X folks for one of the best clients out there.
+
+---
+
 # Twidere X
 [![Build Status](https://github.com/TwidereProject/TwidereX-Android/workflows/Android%20CI/badge.svg)](https://github.com/TwidereProject/TwidereX-Android/actions)
 [![Crowdin](https://badges.crowdin.net/twidere-x/localized.svg)](https://crowdin.com/project/twidere-x)

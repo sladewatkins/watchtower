@@ -1,15 +1,23 @@
 # SRW Watchtower
 
-SRW Watchtower is a fork of Twidere X, an open-source Twitter client for Android, that intends to improve upon the Twidere X codebase. I plan to send some changes I make to the upstream to aid their efforts.
+**Note**: Watchtower is not yet daily driver ready. It's unstable and has build issues that are yet to be resolved. However, I'm happy to take testers for revisions!
+
+SRW Watchtower is a fork of Twidere X, an open-source Twitter client for Android, that intends to improve upon the Twidere X codebase. It can be used as a replace for, and updated independently of, Twidere X with upstream updates coming as they're committed (see "Updates"). **I fully commit to providing regular updates, feature AND security, for the sake of users. (See "Twidere X Contributions")
 
 Specific changes that will be made include:
 - improved support for V2 API features (poll viewing and creation, as well as reply controls)
 - more customization options
 - more I haven't thought of yet but will declare later on in an update to this README.
 
-I've left the original README file for Twidere X in tact for your reference. It's below the line.
+### Updates
+I've reset the versioning system to 1.0 since this is considered an entirely separate application from Twidere X. This means we're starting at 1.0.0.
 
-Feel free to submit code here, *and/or* upstream as well! And thanks to the Twidere X folks for one of the best clients out there.
+For now, 1.0.0 includes the same feature set as Twidere X 1.6.y (when it was forked), and will be transformed into Watchtower *first* before additional feature changes are made.
+
+### Twidere X Contributions
+I plan to send some changes I make to the upstream to aid their efforts, mainly security and some minor features, while also maintaining watchtower as a separate project. I've also left the original README file for Twidere X in tact for your reference. It's below the line.
+
+Feel free to submit code [here via merge/pull request](https://gitlab.com/sladewatkins/watchtower/-/merge_requests), *and/or* upstream as well! And thanks to the Twidere X folks for one of the best clients out there.
 
 ---
 

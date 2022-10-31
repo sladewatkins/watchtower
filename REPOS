@@ -1,5 +1,3 @@
-status             link
------------------------
 upstream https://github.com/TwidereProject/TwidereX-Android
 forked https://gitlab.com/sladewatkins/watchtower
 forked https://github.com/sladewatkins/watchtower

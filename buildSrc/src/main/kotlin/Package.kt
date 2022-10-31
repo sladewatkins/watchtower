@@ -8,10 +8,10 @@ object Package {
     const val versionCode = Version.build
 
     object Version {
-        const val main = "0"
-        const val mirror = "1"
+        const val main = "1"
+        const val mirror = "0"
         const val patch = "0"
         const val revision = "1"
-        const val build = 2
+        const val build = 3
     }
 }

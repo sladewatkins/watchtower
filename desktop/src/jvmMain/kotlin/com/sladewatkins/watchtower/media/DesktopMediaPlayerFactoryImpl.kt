@@ -18,11 +18,11 @@
  *  You should have received a copy of the GNU General Public License
  *  along with Twidere X. If not, see <http://www.gnu.org/licenses/>.
  */
-package com.twidere.twiderex.media
+package com.sladewatkins.watchtower.media
 
 import androidx.compose.ui.graphics.Color
-import com.twidere.twiderex.component.foundation.DesktopMediaPlayer
-import com.twidere.twiderex.component.foundation.DesktopMediaPlayerFactory
+import com.sladewatkins.watchtower.component.foundation.DesktopMediaPlayer
+import com.sladewatkins.watchtower.component.foundation.DesktopMediaPlayerFactory
 
 class DesktopMediaPlayerFactoryImpl : DesktopMediaPlayerFactory {
   override fun create(url: String, backgroundColor: Color?, onClick: (() -> Unit)?): DesktopMediaPlayer {

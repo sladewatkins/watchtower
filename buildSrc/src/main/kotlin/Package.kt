@@ -1,7 +1,7 @@
 object Package {
-    const val group = "com.twidere"
-    const val name = "Twidere X"
-    const val id = "$group.twiderex"
+    const val group = "com.sladewatkins"
+    const val name = "SRW Watchtower"
+    const val id = "$group.sladewatkins"
     val versionName =
         "${Version.main}.${Version.mirror}.${Version.patch}${if (Version.revision.isNotEmpty()) "-${Version.revision}" else ""}"
     const val copyright = "Copyright (C) TwidereProject and Contributors"

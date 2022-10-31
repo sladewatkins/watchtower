@@ -25,7 +25,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.awt.SwingPanel
 import com.sun.javafx.application.PlatformImpl
 import com.sun.media.jfxmedia.logging.Logger
-import com.sladewatkins.watchtower.component.foundation.DesktopMediaPlayer
+import com.twidere.twiderex.component.foundation.DesktopMediaPlayer
 import com.twidere.twiderex.component.foundation.PlayerCallBack
 import com.twidere.twiderex.component.foundation.PlayerProgressCallBack
 import com.twidere.twiderex.extensions.observeAsState

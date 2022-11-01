@@ -164,7 +164,7 @@ private fun startDesktopApp() {
           stopKoin()
           exitApplication()
         },
-        title = "Twidere X",
+        title = "SRW Watchtower",
         icon = painterResource(MR.files.ic_launcher.filePath),
       ) {
         FilePicker.init(window)

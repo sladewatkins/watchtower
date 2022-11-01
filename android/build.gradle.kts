@@ -131,7 +131,6 @@ android {
             )
         }
     }
-    namespace = "com.twidere.twiderex"
 }
 
 dependencies {

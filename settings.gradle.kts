@@ -7,7 +7,7 @@ pluginManagement {
     }
 }
 
-rootProject.name = "Watchtower"
+rootProject.name = "TwidereX"
 include(":android", ":services", ":common", ":desktop", ":routeProcessor")
 
 enableFeaturePreview("VERSION_CATALOGS")

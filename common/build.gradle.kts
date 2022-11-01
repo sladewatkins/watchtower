@@ -215,7 +215,6 @@ android {
             )
         }
     }
-    namespace = "com.twidere.common"
 }
 
 ksp {

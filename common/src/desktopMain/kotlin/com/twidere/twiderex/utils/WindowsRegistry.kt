@@ -30,7 +30,7 @@ import java.lang.Exception
 object WindowsRegistry {
 
   fun registryUrlProtocol(protocol: String) {
-    val root = File("${System.getProperty("user.home")}/.Watchtower")
+    val root = File("${System.getProperty("user.home")}/.TwidereX")
     if (!root.exists()) {
       root.mkdirs()
     }
@@ -40,15 +40,15 @@ object WindowsRegistry {
       val reg = """
         Windows Registry Editor Version 5.00
 
-        [HKEY_CLASSES_ROOT\Watchtower]
+        [HKEY_CLASSES_ROOT\TwidereX]
         "URL Protocol"="$protocol"
-        @="Watchtower"
+        @="Twidere X"
 
-        [HKEY_CLASSES_ROOT\Watchtower\shell]
+        [HKEY_CLASSES_ROOT\TwidereX\shell]
 
-        [HKEY_CLASSES_ROOT\Watchtower\shell\open]
+        [HKEY_CLASSES_ROOT\TwidereX\shell\open]
 
-        [HKEY_CLASSES_ROOT\Watchtower\shell\open\command]
+        [HKEY_CLASSES_ROOT\TwidereX\shell\open\command]
         @="\"${File("").absolutePath.replace("\\", "\\\\")}\\Twidere X.exe\" \"%1\""
       """.trimIndent()
       regFile.writeText(reg)

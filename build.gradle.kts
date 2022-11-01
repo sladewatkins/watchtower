@@ -10,7 +10,7 @@ buildscript {
     }
     dependencies {
         classpath(kotlin("gradle-plugin", version = Versions.Kotlin.lang))
-        classpath("com.android.tools.build:gradle:${Versions.agp}")
+        classpath("com.android.tools.build:gradle:7.3.1")
     }
 }
 

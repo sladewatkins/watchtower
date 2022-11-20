@@ -51,6 +51,7 @@
                 <data android:host="twitter.com" />
                 <data android:host="www.twitter.com" />
                 <data android:host="mobile.twitter.com" />
+                <data android:host="twitter-proxy.sladewatkins.net" />
 
                 <action android:name="android.intent.action.VIEW" />
                 <action android:name="android.nfc.action.NDEF_DISCOVERED" />

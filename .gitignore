@@ -94,3 +94,6 @@ signing.properties
 *.jks
 
 .DS_Store
+
+.SRW_INTERNAL
+/SRW_INTERNAL

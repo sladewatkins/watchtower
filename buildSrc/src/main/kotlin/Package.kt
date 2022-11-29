@@ -1,6 +1,6 @@
 object Package {
     const val group = "com.twidere"
-    const val name = "Twidere X"
+    const val name = "Watchtower"
     const val id = "$group.twiderex"
     val versionName =
         "${Version.main}.${Version.mirror}.${Version.patch}${if (Version.revision.isNotEmpty()) "-${Version.revision}" else ""}"
@@ -11,7 +11,7 @@ object Package {
         const val main = "1"
         const val mirror = "6"
         const val patch = "0"
-        const val revision = ""
+        const val revision = "wt101r4"
         const val build = 59
     }
 }
